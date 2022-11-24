@@ -1,3 +1,40 @@
 * {
   box-sizing: border-box;
 }
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+  padding: 15px 0;
+  box-shadow: 0 0 25px orangered;
+}
+.container {
+  max-width: 987px;
+  margin: 0 auto;
+}
+ul {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+
+  list-style-type: none;
+}
+a {
+  color: orangered;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 5px;
+  border-radius: 10px;
+
+  display: block;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+a:hover {
+  background-color: orangered;
+  color: white;
+}
